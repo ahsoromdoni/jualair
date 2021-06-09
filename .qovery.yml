@@ -1,0 +1,11 @@
+---
+application:
+  name: "jualair"
+  project: "test-01"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-jualair"
+  routes:
+  - application_name: "jualair"
+    paths:
+    - "/*"
